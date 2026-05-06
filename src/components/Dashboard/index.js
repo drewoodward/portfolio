@@ -3,10 +3,11 @@ import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import Home from "./home";
 import Login from '../Login';
 
+const auth = getAuth();
+
 const Dashboard = () => {
 
     const [user, setUser] = useState(null);
-    const auth = getAuth();
 
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {

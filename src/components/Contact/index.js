@@ -20,7 +20,12 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
       .then(
         () => {
           alert('Message successfully sent!')
@@ -85,20 +90,19 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Andre Woodward,
           <br />
-          Serbia,
+          United States,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Greenville, North Carolina <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>drewoodward@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[35.6127, -77.3664]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[35.6127, -77.3664]}>
+              <Popup>Lets grab a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>

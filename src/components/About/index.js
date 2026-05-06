@@ -33,18 +33,20 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a computer science student at East Carolina University with a
+            certificate in Artificial Intelligence. I enjoy building front-end
+            experiences and exploring ways to integrate AI into practical web
+            applications.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I'm quietly confident, naturally curious, and driven by a focused
+            interest in Quantum Computing applied to finance — exploring how
+            quantum algorithms can reshape portfolio optimization, risk
+            modeling, and financial simulations.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            Outside of technology, I'm a proud cat dad of two kitties. I'm also a sports fanatic, photography enthusiast, and
+            generally tech-obsessed.
           </p>
         </div>
 
