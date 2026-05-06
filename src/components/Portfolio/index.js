@@ -14,9 +14,9 @@ import xpcredit from "../../assets/images/cropped/16-9_xpcredit.png";
 const projects = [
     {
         image: codeSwitching,
-        name: "mBART-51",        // TODO: title
-        description: "Live-translation model made for code-switching languages.", // TODO: description
-        url: "https://github.com/drewoodward/mbart-51",         // TODO: link
+        name: "mBART-51",
+        description: "Live-translation model made for code-switching languages.",
+        url: "https://github.com/drewoodward/mbart-51",
     },
     {
         image: finbud,
