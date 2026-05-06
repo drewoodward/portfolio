@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d86168a3.css",
-    "main.js": "/static/js/main.c87f3e53.js",
+    "main.js": "/static/js/main.12ae6b40.js",
     "static/js/787.67b99310.chunk.js": "/static/js/787.67b99310.chunk.js",
     "static/media/16-9_finbud.png": "/static/media/16-9_finbud.c57b35a3480e9d7ecf9b.png",
     "static/media/logo-a.png": "/static/media/logo-a.9abca1f75c3987ca04b8.png",
@@ -18,11 +18,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
     "main.d86168a3.css.map": "/static/css/main.d86168a3.css.map",
-    "main.c87f3e53.js.map": "/static/js/main.c87f3e53.js.map",
+    "main.12ae6b40.js.map": "/static/js/main.12ae6b40.js.map",
     "787.67b99310.chunk.js.map": "/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d86168a3.css",
-    "static/js/main.c87f3e53.js"
+    "static/js/main.12ae6b40.js"
   ]
 }
